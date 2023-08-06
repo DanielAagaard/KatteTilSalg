@@ -1,0 +1,104 @@
+body {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#cat-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em;
+}
+
+.cat-box {
+    width: 500px;
+    border: 1px solid #ccc;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+.cat-image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px 0px 20px 0px;
+}
+
+.cat-image {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+#cat-container > div > p {
+	font-size: 24px;
+}
+
+#cat-container > div > p > span {
+	font-weight: bold;
+}
+
+#cat-container > div > h2 {
+	font-size: 38px;
+	margin: 0px 0px;
+}
+
+h1 {
+	font-size: 52px;
+}
+
+#kontakt {
+	width: 50%;
+	min-width: 500px;
+	margin: 0px auto 50px auto;
+}
+
+#kontakt-titel {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+a {
+	font-size: 20px;
+}
+
+#info {
+	font-size: 20px;
+}
+
+.arrow-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+	height: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.arrow {
+    border: 0px solid #ccc;
+    color: #333;
+    font-size: 48px;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.arrow:hover {
+    background-color: rgba(98, 98, 98, 0.3);
+}
