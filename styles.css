@@ -47,7 +47,7 @@ header {
 }
 
 #cat-container > div > h2 {
-	font-size: 24px;
+	font-size: 28px;
 	margin: 0px 0px;
 }
 
@@ -56,8 +56,8 @@ h1 {
 }
 
 #kontakt {
-	width: 50%;
-	min-width: 500px;
+	width: 100%;
+	max-width: 500px;
 	margin: 0px auto 50px auto;
 }
 
